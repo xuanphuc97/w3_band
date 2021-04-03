@@ -83,12 +83,14 @@ html {
     /* float: right; */     
     float: right;
     padding: 0 20px;
+    cursor: pointer; 
 
 }
 
 #header .search-icon {
     color: #fff;
     line-height: 46px;
+    
 }
 #header .search-btn:hover {
     background-color: #f44339;
@@ -251,13 +253,23 @@ html {
     background-color: #000;
     color: #fff;
     padding: 8px;
-    margin-top: 15px;
+    border-color: #ccc;
+    cursor: pointer;
+    
 }
+
+#content .buyticket:hover {
+    background-color: #ccc;
+    color: #000;
+    
+}
+
 #content .place-describe {
     width: 90%;
     color: #000;
     margin-top: 15px;
     line-height: 1.4;
+    margin-bottom: 30px;
 }
 #footer {
 
