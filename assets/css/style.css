@@ -217,9 +217,7 @@ html {
 }
 
 #content .place-section {
-    margin-top: 24px;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin: 32px -8px 0;
     overflow: hidden;
 }
 #content .place-items {
@@ -230,21 +228,35 @@ html {
 }
 #content .place-img {
     width: 100%;
+    display: block;
 }
+
+#content .place-img:hover {
+    opacity: 50%;
+}
+
 #content .place-info {
     background-color: #fff;
+    padding:  16px;
 }
 #content .place-name {
     color: #000;
-    font-weight: 600;
+    font-weight: 550;
 }
 #content .place-date {
-
+    color: #333333;
+    margin-top: 15px;    
 }
 #content .buyticket {
     background-color: #000;
     color: #fff;
-    padding: 4px;
+    padding: 8px;
+    margin-top: 15px;
+}
+#content .place-describe {
+    width: 90%;
+    color: #000;
+    margin-top: 15px;
 }
 #footer {
 
