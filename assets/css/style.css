@@ -244,7 +244,7 @@ html {
     font-weight: 550;
 }
 #content .place-date {
-    color: #333333;
+    color: #757575;
     margin-top: 15px;    
 }
 #content .buyticket {
@@ -257,6 +257,7 @@ html {
     width: 90%;
     color: #000;
     margin-top: 15px;
+    line-height: 1.4;
 }
 #footer {
 
