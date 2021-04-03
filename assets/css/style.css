@@ -173,7 +173,7 @@ html {
     margin: 20px 0;
 }
 
-#content img {
+#content .img-member {
     width: 154px;
     border-radius: 5px;
 
@@ -216,6 +216,36 @@ html {
     line-height: 24px;
 }
 
+#content .place-section {
+    margin-top: 24px;
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow: hidden;
+}
+#content .place-items {
+    float: left;
+    text-align: justify;
+    width: calc(100%/3);
+    padding: 0 8px;
+}
+#content .place-img {
+    width: 100%;
+}
+#content .place-info {
+    background-color: #fff;
+}
+#content .place-name {
+    color: #000;
+    font-weight: 600;
+}
+#content .place-date {
+
+}
+#content .buyticket {
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+}
 #footer {
 
 }
