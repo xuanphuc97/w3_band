@@ -9,6 +9,38 @@ html {
     
 }
 
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
 #main {
 
 }
@@ -270,6 +302,37 @@ html {
     margin-top: 15px;
     line-height: 1.4;
     margin-bottom: 30px;
+}
+#content .contact-content {
+    margin: 54px 0;
+}
+
+#content .contact-info p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.contact-info i {
+    width: 30px;
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#content .contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+#content .form-submit {
+    float: right;
+    border-color: transparent;
+    padding: 10px 24px;
 }
 #footer {
 
